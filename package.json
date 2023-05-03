@@ -1,8 +1,10 @@
 {
   "name": "simplicity-includes",
   "displayName": "Simplicity Includes",
-  "description": "Design time includes for static websites.",
-  "version": "0.0.1",
+  "description": "Design time HTML includes for static websites.",
+  "version": "1.0.0",
+  "publisher": "",
+  "icon": "",
   "engines": {
     "vscode": "^1.77.0"
   },
@@ -13,14 +15,7 @@
     "onStartupFinished"
   ],
   "main": "./extension.js",
-  "contributes": {
-    "commands": [
-      {
-        "command": "simplicity-includes.helloWorld",
-        "title": "Hello World"
-      }
-    ]
-  },
+  "contributes": {},
   "scripts": {
     "lint": "eslint .",
     "pretest": "npm run lint",
